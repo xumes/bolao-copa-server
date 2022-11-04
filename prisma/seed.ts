@@ -6,7 +6,7 @@ async function main() {
   const user = await prisma.user.create({
     data: {
       name: "Xumes Grumes",
-      email: "me@xumes.ca",
+      email: "xumes@xumes.com",
       avatarUrl: "https://github.com/xumes.png",
     },
   });
@@ -14,7 +14,7 @@ async function main() {
   const poll = await prisma.poll.create({
     data: {
       title: "Example Poll",
-      code: "BOL456",
+      code: "BOL012",
       ownerId: user.id,
 
       participants: {

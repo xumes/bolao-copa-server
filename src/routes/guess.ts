@@ -49,7 +49,7 @@ export async function guessRoutes(fastify: FastifyInstance) {
 
         if (guess) {
             return reply.code(400).send({
-                message: "You already send a guess to this game on this poll"
+                message: "You already sent a guess to this game on this poll"
             })
         }
 
