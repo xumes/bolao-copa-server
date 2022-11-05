@@ -158,7 +158,7 @@ export async function pollRoutes(fastify: FastifyInstance) {
                 id
             },
             include: {
-                user: {
+                owner: {
                     select: {
                         id: true,
                         name: true
