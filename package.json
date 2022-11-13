@@ -29,5 +29,8 @@
     "fastify": "^4.9.2",
     "short-unique-id": "^4.4.4",
     "zod": "^3.19.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
